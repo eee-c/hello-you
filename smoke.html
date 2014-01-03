@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Smoke Test for Hello You Polymer</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+    <!-- 1. Load Polymer before any code that touches the DOM. -->
+    <script src="bower_components/platform/platform.js"></script>
+    <!-- 2. Load component(s) -->
+    <link rel="import" href="hello-you.html">
+  </head>
+  <body>
+    <div class="container">
+      <!--
+
+        Have to change the import in the element to this to test:
+        <link rel="import" href="bower_components/polymer/polymer.html">
+
+      -->
+      <hello-you></hello-you>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "hello-you",
+  "version": "0.0.0",
+  "authors": [
+    "Chris Strom <github@eeecomputes.com>"
+  ],
+  "description": "A super cool Polymer. Tell your friends.",
+  "keywords": [
+    "polymer"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/eee-c/hello-you",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.1.1"
+  }
+}
